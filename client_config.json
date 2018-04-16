@@ -25,11 +25,11 @@
     "settings": {
       "vnext": [
       {
-         "address": "52.6.63.110",  
+         "address": "herokuapp_IP  or cn_sniproxy_ip",  
          "port": 443, 
          "users": [
          {
-           "id": "6efbff10-8bbb-447c-810e-00bdcb25c424",
+           "id": "Your UUID",
            "alterId": 64,
            "security": "none"
          }
@@ -41,13 +41,13 @@
      "network": "ws",
      "security": "tls",
      "tlsSettings": {
-       "serverName": "herokuapp.com",
+       "serverName": "windows.com or herokuapp.com",
        "allowInsecure": true
       },
      "wsSettings": {
        "path": "",
        "headers": {
-          "Host": "go-learning.herokuapp.com"
+          "Host": "your_app_name.herokuapp.com"
        }
      }
   },
